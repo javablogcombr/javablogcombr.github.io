@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/dejavu-serif');
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+dl,
+dd {
+ margin: 0;
+}
+body{
+ font-family: 'DejaVu Serif', sans-serif;
+ margin : 0em 1em 1em 1em;
+ padding: 48px;
+ text-align:justify;
+}
+main{
+ padding-left:8em;
+}
+header{
+ margin-bottom: 2em;
+}
+aside{
+ float:left;
+ width: 11em;
+ font-size: 7pt;
+ margin-left : 0em;
+ padding-right: 2em;
+}
+aside section{
+ margin-bottom:1em
+}
+aside section div a{
+ text-align:center ;
+ text-indent: -1em;
+}
+A { text-decoration: none; }
+A:link { color: #008000; }
+A:visited { color: #666666; }
+A:hover { text-decoration: underline; 
+}
+footer{
+ clear: both;
+ padding-top: 4em;
+ text-align: center;
+ font-size: 7pt;
+ color: #888;
+}
+p{
+ padding: 0pt; margin: 1ex 0em;
+}
+P:first-child, PRE:first-child {
+ margin-top: 0pt;
+}
+ul{
+ padding-left: 2em;
+ list-style-type: square;
+}
