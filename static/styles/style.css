@@ -18,28 +18,19 @@ dd {
 body{
  font-family: 'DejaVu Serif', sans-serif;
  margin : 0em 1em 1em 1em;
- padding: 48px;
+ padding: 16px;
  text-align:justify;
 }
 main{
  padding-left:8em;
+ flex: 1;
 }
 header{
- margin-bottom: 2em;
-}
-aside{
- float:left;
- width: 11em;
- font-size: 7pt;
- margin-left : 0em;
- padding-right: 2em;
-}
-aside section{
- margin-bottom:1em
-}
-aside section div a{
- text-align:center ;
- text-indent: -1em;
+ padding-bottom: 1em;
+ margin-bottom: 1em;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: rgb(230, 232, 234);
 }
 A { text-decoration: none; }
 A:link { color: #008000; }
@@ -62,4 +53,25 @@ P:first-child, PRE:first-child {
 ul{
  padding-left: 2em;
  list-style-type: square;
+}
+
+nav {
+ text-align: center;
+ padding-bottom: 1em;
+ margin-bottom: 1em;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: rgb(230, 232, 234);
+}
+
+
+nav ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+nav li {
+ display: inline;
+ margin-right: 10px; /* Espaçamento entre os itens */
 }
