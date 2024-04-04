@@ -20,6 +20,33 @@ body{
  margin : 0em 1em 1em 1em;
  padding: 16px;
  text-align:justify;
+ font-size: 16px;
+}
+h1 {
+ font-size: 2.5rem; /* Tamanho maior para h1 */
+}
+
+h2 {
+ font-size: 2rem; /* Tamanho menor que h1 */
+}
+
+h3 {
+ font-size: 1.75rem; /* Tamanho menor que h2 */
+}
+
+h4 {
+ font-size: 1.5rem; /* Tamanho menor que h3 */
+}
+
+h5 {
+ font-size: 1.25rem; /* Tamanho menor que h4 */
+}
+
+h6 {
+ font-size: 1rem; /* Tamanho menor para h6 */
+}
+p, li, span {
+ font-size: 1.2rem;
 }
 main{
  margin: auto;
@@ -32,6 +59,18 @@ header{
  border-bottom-style: solid;
  border-bottom-color: rgb(230, 232, 234);
 }
+.logojava{
+ font-weight: lighter;
+ font-family: 'DejaVu Serif Condensed', sans-serif;
+ font-style: normal;
+ font-size: 2.5rem;
+}
+.logoblog{
+ font-weight: bold;
+ font-style: normal;
+ font-size: 2.5rem;
+ color:#008000
+}
 A { text-decoration: none; }
 A:link { color: #008000; }
 A:visited { color: #666666; }
@@ -41,8 +80,10 @@ footer{
  clear: both;
  padding-top: 4em;
  text-align: center;
- font-size: 7pt;
  color: #888;
+}
+footer span {
+ font-size: 1rem; /* Tamanho de fonte para o span dentro do footer */
 }
 p{
  padding: 0pt; margin: 1ex 0em;
@@ -73,6 +114,7 @@ nav ul {
 nav li {
  display: inline;
  margin-right: 10px; /* Espaçamento entre os itens */
+ font-size: 1.2rem;
 }
 
 
