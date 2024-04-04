@@ -118,7 +118,10 @@ nav li {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1008px) {
+ body{
+  font-size: 32px;
+ }
  nav {
   display: none;
  }
