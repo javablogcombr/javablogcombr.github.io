@@ -22,8 +22,8 @@ body{
  text-align:justify;
 }
 main{
- padding-left:8em;
- flex: 1;
+ margin: auto;
+ width: 50%;
 }
 header{
  padding-bottom: 1em;
@@ -64,7 +64,6 @@ nav {
  border-bottom-color: rgb(230, 232, 234);
 }
 
-
 nav ul {
  list-style-type: none;
  padding: 0;
@@ -74,4 +73,15 @@ nav ul {
 nav li {
  display: inline;
  margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+
+@media screen and (max-width: 600px) {
+ nav {
+  display: none;
+ }
+ main{
+  margin: auto;
+  width: 90%;
+ }
 }
