@@ -3,10 +3,10 @@
         <title>JavaBLOG</title>
         <meta name="description" content="O seu blog favorito sobre a plataforma Java"/>
         <meta charset="utf-8">
-        <link rel="icon" type="image/png" href="static/images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
-        <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="static/styles/style.css">
+        <link rel="icon" type="image/png" href="../../static/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../static/images/favicon-16x16.png">
+        <link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../../static/styles/style.css">
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GPXWZ7DQB6"></script>
         <script>
@@ -35,28 +35,41 @@
         <main>
             <section>
                 <h4>Hello World</h4>
-                <p>O local para aprender sobre a plataforma Java em língua portuguesa.</p>
+                <p>
+                    O programa "Hello, World!" é uma tradição importante para programadores iniciantes. Ele marca o começo da jornada de aprendizado em programação, ensinando conceitos básicos como entrada, saída e sintaxe de código.
+                    O objetivo deste programa é exibir no terminal o texto "Hello, World!"
+                </p>
+                <p>O primeiro passo é criar um arquivo chamado <b>Main.java</b>. Observe que a extensão do arquivo deve ser <b>.java.</b></p>
+                <p>No arquivo, adicione o código a seguir:</p>
                 <pre>
                     <code>
 public class Main{
     public static void main(String args[]){
-        System.out.println("Hello World");
+        System.out.println("Hello World!");
     }
 }                    
                     </code>
                 </pre>
-                <p>Compilar o codigo via terminal</p>
+                <p>Na sequência, abre o terminal <mark>no mesmo diretório</mark> que o seu arquivo Main.java foi salvo.</p>
+                <p>Para compilar o código utilize o seguinte comando no terminal:</p>
                 <pre>
                     <code>
 javac Main.java
                     </code>
                 </pre>
-                <p>Executar o codigo via terminal</p>
+                <p>Quando a compilação ocorre com sucesso, nenhuma mensagem é mostrada no terminal.</p>
+                <p>Para executar o código utilize o seguinte comando no terminal:</p>
                 <pre>
                     <code>
 java Main
                     </code>
                 </pre>
+                <p>No terminal será apresentado a mensagem:</p>
+                <pre>
+                    <code>
+Hello World!
+                    </code>
+                    </pre>
             </section>
         </main>
         <footer>
